@@ -9,8 +9,9 @@
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg"
       alt="axyut" height="30" width="40" /></a>
 </p>
-
+<!--
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=axyut&show_icons=true&locale=en&bg_color=0d1117&text_color=ffffff&repo=convoychat"
     alt="achyut koirala github stats" /></p>
 
 <br>
+-->
