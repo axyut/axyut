@@ -31,3 +31,4 @@
 -->
 <br>
 
+  ![Snake animation](https://github.com/axyut/axyut/blob/output/github-contribution-grid-snake.svg)
