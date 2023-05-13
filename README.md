@@ -11,7 +11,7 @@
       alt="axyut" height="30" width="40" /></a>
 </p>
 
-<!--
+
 <details>
 <summary>View Stats</summary>
 
@@ -20,7 +20,7 @@
 ![Github stats](https://github-stats-alpha.vercel.app/api?username=axyut&cc=22272e&tc=ffffff&ic=fff&bc=0d1117&show_icons=true)
 
 </details>
--->
+
 
 <!--
 <a href="https://github.com/axyut">
