@@ -19,8 +19,9 @@
 ![github contribution grid snake animation](https://raw.githubusercontent.com/axyut/axyut/output/github-contribution-grid-snake.svg#gh-light-mode-only)
   <!--
 ![Github stats](https://github-stats-alpha.vercel.app/api?username=axyut&cc=22272e&tc=ffffff&ic=fff&bc=0d1117&show_icons=true)
--->
 ![visit count](https://visitcount.itsvg.in/api?id=axyut&icon=5&color=1)
+-->
+
 </details>
 
 
