@@ -37,9 +37,7 @@
     src="https://raw.githubusercontent.com/axyut/axyut/output/github-contribution-grid-snake.svg"
   />
 </picture>
-<a href="https://github.com/axyut">
-    <img src="https://github-stats-alpha.vercel.app/api?username=axyut&cc=22272e&tc=ffffff&ic=fff&bc=0d1117&show_icons=true">
-</a>
+
 
 
 </details>
