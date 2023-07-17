@@ -1,47 +1,44 @@
-name: main
+# GitHub Action for generating a contribution graph with a snake eating your contributions.
 
-on: [push]
-
+name: Generate Snake
+on:
+  schedule:
+      # every 12 hours
+    - cron: "0 */12 * * *"
+# This command allows us to run the Action automatically from the Actions tab.
+  workflow_dispatch:
+  
 jobs:
-  test:
+  generate:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
+    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+    # Generates the snake  
+      - name : generate snake.svg
+        uses: Platane/snk@master
+        id: snake-gif
         with:
-          cache: yarn
-          node-version: 16
-      - run: yarn install --frozen-lockfile
+          github_user_name: ${{ github.repository_owner }}
+          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          svg_out_path:
+            dist/
+            github-contribution-grid-snake.svg
 
-      - run: yarn type
-      - run: yarn lint
-      - run: yarn test --ci
+     # show the status of the build. Makes it easier for debugging (if there's any issues).
+     # - run: git status
 
-  test-action:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: generate-snake-game-from-github-contribution-grid
-        id: generate-snake
-        uses: Platane/snk/svg-only@v2
+      # Push the changes
+#       - name: Push changes
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: master
+#           force: true
+      - name: send svg to target place
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          github_user_name: axyut
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
-
-      - name: ensure the generated file exists
-        run: |
-          ls dist
-          test -f dist/github-contribution-grid-snake.svg
-          test -f dist/github-contribution-grid-snake-dark.svg
-          test -f dist/github-contribution-grid-snake.gif
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
+          # the output branch we mentioned above
           target_branch: output
           build_dir: dist
         env:
