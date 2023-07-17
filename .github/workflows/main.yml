@@ -29,14 +29,14 @@ jobs:
      # - run: git status
 
       # Push the changes
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-          force: true
-
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
+#       - name: Push changes
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: master
+#           force: true
+      - name: send svg to target place
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           # the output branch we mentioned above
           target_branch: output
