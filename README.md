@@ -11,6 +11,11 @@
       alt="axyut" height="30" width="40" /></a>
 </p>
 ![github contribution grid snake animation](https://raw.githubusercontent.com/axyut/axyut/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+    gif snake in orange snake in blue dots
+    <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/axyut/axyut/output/github-contribution-grid-snake.gif"
+    />
 -->
 
 <details>
@@ -18,7 +23,7 @@
   <div align="center">
     <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,nestjs,mongodb,postgresql,redis,vite,react,go,postman,linux,bash,docker,jest" /><br>
 </div>
-  <!--
+<!--
 ![Github stats](https://github-stats-alpha.vercel.app/api?username=axyut&cc=22272e&tc=ffffff&ic=fff&bc=0d1117&show_icons=true)
 ![visit count](https://visitcount.itsvg.in/api?id=axyut&icon=5&color=1)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=axyut&theme=vue)
