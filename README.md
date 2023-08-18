@@ -21,7 +21,7 @@
 <details>
 <summary>View Stats</summary>
   <div align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,nestjs,mongodb,postgresql,redis,vite,react,go,postman,linux,bash,docker,jest" /><br>
+    <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,nestjs,mongodb,postgresql,redis,vite,react,go,postman,bash,docker,jest,graphql" /><br>
 </div>
 <!--
 ![Github stats](https://github-stats-alpha.vercel.app/api?username=axyut&cc=22272e&tc=ffffff&ic=fff&bc=0d1117&show_icons=true)
