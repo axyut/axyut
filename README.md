@@ -19,7 +19,7 @@
 -->
 
 <details>
-<summary>View Stats</summary>
+<summary>More.</summary>
   <div align="center">
     <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,nestjs,mongodb,postgresql,redis,vite,react,go,postman,bash,docker,jest,graphql" /><br>
 </div>
