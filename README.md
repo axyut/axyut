@@ -21,7 +21,7 @@
 <details>
 <summary>More.</summary>
   <div align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,nestjs,mongodb,postgresql,redis,vite,react,go,postman,bash,docker,jest,graphql" /><br>
+    <img src="https://skillicons.dev/icons?i=nodejs,typescript,express,nestjs,php,laravel,mongodb,postgresql,redis,mysql,dynamodb,vite,react,astro,htmx,go,zig,c,cpp,bash,linux,debian,neovim,docker,jest,graphql,arduino,postman,rabbitmq,elasticsearch" /><br>
 </div>
 <!--
 ![Github stats](https://github-stats-alpha.vercel.app/api?username=axyut&cc=22272e&tc=ffffff&ic=fff&bc=0d1117&show_icons=true)
